@@ -8,7 +8,7 @@ int main (){
        printf("%c",linha[i]);
 
 
-     }
+     }              ////
 
 
 
