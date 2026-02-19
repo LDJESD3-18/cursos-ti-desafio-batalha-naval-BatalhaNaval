@@ -23,7 +23,7 @@ int main (){
        printf("%c",linha[i]);
 
 
-     }              ////
+     }              ////teste e ir dormir 
 
 
 
