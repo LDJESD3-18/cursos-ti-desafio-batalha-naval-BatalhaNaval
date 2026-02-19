@@ -41,7 +41,7 @@ int main (){                                                                    
                                                        
 
           
-          }else if(i += t == 9){                                         //Estrutura de repetição que verifica se i += t ==9 ,se o número da linha mais o da coluna è igual a 9
+          }else if(i + t == 9){                                         //Estrutura de repetição que verifica se i += t ==9 ,se o número da linha mais o da coluna è igual a 9
             printf("%d ",navio1[j]);                                    //Se for executa o código abaixo 
 
              
