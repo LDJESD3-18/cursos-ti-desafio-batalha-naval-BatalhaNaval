@@ -29,7 +29,7 @@ int main (){                                                                    
     
     printf("\n");                                                          //Faz um espaçamento
 
-    for (int i = 0;i<10;i++){                                            //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i.  
+    for (int i = 0,j=0 ;i<10;i++ && j<10,j++){                          //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i.  
        printf("%d\n",linha[i]);                                         //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1) 
 
       
