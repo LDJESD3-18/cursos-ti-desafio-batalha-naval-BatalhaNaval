@@ -17,23 +17,41 @@ int main (){                                                                    
      {0,0,0,0,0,0,0,0,0,0},                    
      
      };
-     printf("Tabuleiro Batalha Naval \n");                                 //Mostra A expressão Tabuleiro Batalha Naval
+     printf("Tabuleiro Batalha Naval \n");                                  //Mostra A expressão Tabuleiro Batalha Naval
      
      
-     for (int i = 0;i<10;i++){
-       printf("%c ",coluna[i]);
+     for (int j = 0;j<10;j++){                                           //Estrutura de repetição que cria e inicializa j e repete 10 vezes o código abaixo se j for menor que 10 e após a execução do código incrementa 1 a j.
+       printf("%c ",coluna[j]);                                         //Mostra o número que é o valor de cada coluna baseado no valor de j, exemplo se  j for 0: mostra A(coluna A) 
+
 
 
       }
     
-    printf("\n");
+    printf("\n");                                                       //Faz um espaçamento
 
-    for (int j = 0;j<10;j++){
-       printf("%d\n",linha[j]);
+    for (int i = 0;i<10;i++){                                          //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i.                                    
+       printf("%d\n",linha[i]);                                       //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1) 
 
 
 
-     }              ////teste e 
+
+
+     }  
+       for (int t = 0;t<10;t++){                                                                                                                                                                                             //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i.                                    
+       printf("%d ",tabuleiro[t][0],tabuleiro[t][1],tabuleiro[t][2],tabuleiro[t][3],tabuleiro[t][4],tabuleiro[t][5],tabuleiro[t][6],tabuleiro[t][7],tabuleiro[t][8],tabuleiro[t][9]);                                       //Mostra o número que é o valor de cada linha baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) e assim por diante
+       
+
+
+
+     }  
+     
+     
+     
+     
+     
+     
+     
+     ////teste e 
 
 
 
