@@ -20,11 +20,11 @@ int main (){                                                                    
      
      int navio1[3]={3,3,3};                                                       //Vetor que armazena a posição do navio1
      int navio2[3] ={3,3,3};                                                     //Vetor que armazena a posição do navio2
-     int navio3[4] ={3,3,3,3};                                                  //Vetor que armazena a posição do navio3  
+     int navio3  = 3;                                                           //Variável que armazena a posição do navio3  
      int navio4[5] ={3,3,3,3,3};                                               //Vetor que armazena a posição do navio4 
 
-     printf("Tabuleiro Batalha Naval \n");                                 //Mostra A expressão Tabuleiro Batalha Naval
-     printf(" ");                                                         //Espaço em branco para alinhar o número da linha e a letra da coluna
+     printf("Tabuleiro Batalha Naval \n");                                       //Mostra A expressão Tabuleiro Batalha Naval
+     printf(" ");                                                               //Espaço em branco para alinhar o número da linha e a letra da coluna
      
 
      for (int j = 0;j<10;j++){                                                 //Estrutura de repetição que cria e inicializa j e repete 10 vezes o código abaixo se j for menor que 10 e após a execução do código incrementa 1 a j.
@@ -40,10 +40,10 @@ int main (){                                                                    
         printf("%d ",linha[i]);                                                                                       //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1)  
           for(int t=0; t<10;t++ ){                                                                                   //estrutura de repetição que cria e inicializa  t ,verifica se t for menor que 10 se sim executa o código abaixo e após a execução incrementa 1 a t. 
           if(i== 0 && t==0 && i== 1 && t==1 && i== 2 && t==2 && i== 3 && t==3){                                     //Estrutura de repetição que verifica se i = t,se o número da linha igual ao da coluna
-            printf("%d ",navio3[0]);                                                                               //Se for coloca o 3 na célula A1(linha0,coluna0)
-            printf("%d ",navio3[1]);                                                                              //Se for coloca o 3 na célula B2(linha1,coluna1)
-            printf("%d ",navio3[2]);                                                                             //Se for coloca o 3 na célula C3 (linha2,coluna2)
-            printf("%d ",navio3[3]);                                                                            //Se for coloca o 3 na célula D4 (linha3,coluna3)
+            printf("%d ",navio3);                                                                               //Se for coloca o 3 na célula A1(linha0,coluna0)
+            printf("%d ",navio3);                                                                              //Se for coloca o 3 na célula B2(linha1,coluna1)
+            printf("%d ",navio3);                                                                             //Se for coloca o 3 na célula C3 (linha2,coluna2)
+            printf("%d ",navio3);                                                                            //Se for coloca o 3 na célula D4 (linha3,coluna3)
            
 
          
