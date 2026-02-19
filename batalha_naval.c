@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main (){
-     char linha [10] ={'A', 'B', 'C', 'D', 'E', 'F',' G', 'H', 'I', 'J'};       
+     char linha [10] ={'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};       
      
      int tabuleiro[10][10]={
      {0,0,0,0,0,0,0,0,0,0},                     
@@ -16,11 +16,11 @@ int main (){
      {0,0,0,0,0,0,0,0,0,0},                    
      
      };
-     printf("Tabuleiro Batalha Naval");
+     printf("Tabuleiro Batalha Naval \n");
      
      //Cria o tabuleiro 10 x10
      for (int i = 0;i<10;i++){
-       printf("%c",linha[i]);
+       printf("%c ",linha[i]);
 
 
      }              ////teste e ir dormir 
