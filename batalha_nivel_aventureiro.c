@@ -24,12 +24,16 @@ int main (){                                                                    
      printf(" ");                                                         //Espaço em branco para alinhar o número da linha e a letra da coluna
      
 
-     for (int j = 0;j<10;j++){                                           //Estrutura de repetição que cria e inicializa j e repete 10 vezes o código abaixo se j for menor que 10 e após a execução do código incrementa 1 a j.
-       printf("%c ",coluna[j]);                                         //Mostra o número que é o valor de cada coluna baseado no valor de j, exemplo se  j for 0: mostra A(coluna A) 
+     for (int j = 0;j<10;j++){                                                 //Estrutura de repetição que cria e inicializa j e repete 10 vezes o código abaixo se j for menor que 10 e após a execução do código incrementa 1 a j.
+       printf("%c ",coluna[j]);                                               //Mostra o número que é o valor de cada coluna baseado no valor de j, exemplo se  j for 0: mostra A(coluna A) 
+      
+
+     } printf("\n") ;                                                        //Faz um espaçamento
 
 
-     }
-     for (int i = 0 ,j=0;i<10;i++){                                      //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i. 
+
+
+     for (int i = 0 ,j=0;i<10;i++){                                         //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i. 
         printf("%d ",linha[i]);                                            //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1)  
           for(int t=0; t<10;t++ ){                                        //estrutura de repetição que cria e inicializa  t ,verifica se t for menor que 10 se sim executa o código abaixo e após a execução incrementa 1 a t. 
           if(i==t){                                                      //Estrutura de repetição que verifica se i = t,se o número da linha igual ao da coluna
