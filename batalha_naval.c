@@ -35,11 +35,13 @@ int main (){                                                                    
         for(int t=0;t<10;t++ ){                                          //estrutura de repetição que cria e inicializa  t ,verifica se t for menor que 10 se sim executa o código abaixo e após a execução incrementa 1 a t.
           printf("%d ",tabuleiro[0][t]);                                //Mostra o número que é o valor de cada linha e da coluna baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) com espaçamento e assim por diante
         
-        }
+ 
+        }   printf("\n");                                                //Faz um espaçamento
+ 
         };                                  
        
        
-        printf("\n");                                                //Faz um espaçamento
+       
  
 
         
