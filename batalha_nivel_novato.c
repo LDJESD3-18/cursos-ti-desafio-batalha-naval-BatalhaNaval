@@ -52,7 +52,7 @@ int main (){                                                                    
             printf("%d ",navio1[j]);                                    //Se for executa o código abaixo
 
          
-          }else{                                                          //se não
+          }else{                                                         //se não
 
           printf("%d ",tabuleiro[i][j]);                                //Mostra o número que é o valor de cada linha e da coluna baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) com espaçamento e assim por diante
           }
@@ -70,7 +70,7 @@ int main (){                                                                    
     
        }
 
-       //teste 
+       //teste2222222
  
       
     
