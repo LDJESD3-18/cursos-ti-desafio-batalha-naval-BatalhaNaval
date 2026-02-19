@@ -33,7 +33,7 @@ int main (){                                                                    
        printf("%d  ",linha[i]);                                            //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1) 
        for(int j=0;j<10;j++ ){
        printf("%d ",tabuleiro[j][0],tabuleiro[j][1],tabuleiro[j][2],tabuleiro[j][3],tabuleiro[j][4],tabuleiro[j][5],tabuleiro[j][6],tabuleiro[j][7],tabuleiro[j][8],tabuleiro[j][9]);        //Mostra o número que é o valor de cada linha baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) e assim por diante
-        printf("\n");   //faz um espaçamento  
+       printf("\n");   //faz um espaçamento  
 
        }  
 
@@ -45,7 +45,7 @@ int main (){                                                                    
        }  
       
     
-      }
+      }  
                        
       
     
@@ -58,7 +58,7 @@ int main (){                                                                    
      
      
      
-     //// teste  gggggg
+     //// teste  loops aninham
 
 
 
