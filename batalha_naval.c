@@ -18,7 +18,7 @@ int main (){                                                                    
      
      };
      printf("Tabuleiro Batalha Naval \n");                                  //Mostra A expressão Tabuleiro Batalha Naval
-     printf("  ");                                                         //Espaço em branco para alinhar o número da linha e a letra da coluna
+     printf("   ");                                                         //Espaço em branco para alinhar o número da linha e a letra da coluna
      
      
      for (int j = 0;j<10;j++){                                           //Estrutura de repetição que cria e inicializa j e repete 10 vezes o código abaixo se j for menor que 10 e após a execução do código incrementa 1 a j.
