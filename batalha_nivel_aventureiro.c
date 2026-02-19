@@ -36,14 +36,14 @@ int main (){                                                                    
 
 
      //Posicionar o navio3(diagonal principal)
-     for (int i = 0 ,j=0;i<10;i++){                                         //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i. 
-        printf("%d ",linha[i]);                                            //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1)  
-          for(int t=0; t<10;t++ ){                                        //estrutura de repetição que cria e inicializa  t ,verifica se t for menor que 10 se sim executa o código abaixo e após a execução incrementa 1 a t. 
-          if(i== 0 && t==0){                                             //Estrutura de repetição que verifica se i = t,se o número da linha igual ao da coluna
-            printf("%d ",navio3[0]);                                    //Se for coloca o 3 na célula A1(linha0,coluna0)
-            printf("%d ",navio3[1]);                                   //Se for coloca o 3 na célula B2(linha1,coluna1)
-            printf("%d ",navio3[2]);                                  //Se for coloca o 3 na célula C3 (linha2,coluna2)
-            printf("%d ",navio3[3]);                                 //Se for coloca o 3 na célula D4 (linha3,coluna3)
+     for (int i = 0 ,j=0;i<10;i++){                                                                                    //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i. 
+        printf("%d ",linha[i]);                                                                                       //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1)  
+          for(int t=0; t<10;t++ ){                                                                                   //estrutura de repetição que cria e inicializa  t ,verifica se t for menor que 10 se sim executa o código abaixo e após a execução incrementa 1 a t. 
+          if(i== 0 && t==0 && i== 1 && t==1 && i== 2 && t==2 && i== 3 && t==3){                                     //Estrutura de repetição que verifica se i = t,se o número da linha igual ao da coluna
+            printf("%d ",navio3[0]);                                                                               //Se for coloca o 3 na célula A1(linha0,coluna0)
+            printf("%d ",navio3[1]);                                                                              //Se for coloca o 3 na célula B2(linha1,coluna1)
+            printf("%d ",navio3[2]);                                                                             //Se for coloca o 3 na célula C3 (linha2,coluna2)
+            printf("%d ",navio3[3]);                                                                            //Se for coloca o 3 na célula D4 (linha3,coluna3)
            
 
          
