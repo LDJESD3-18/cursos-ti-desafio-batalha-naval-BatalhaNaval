@@ -1,7 +1,7 @@
 #include <stdio.h>                                                                   //Função que acessa as bibliotecas para criar o arquivo executável
 
 int main (){                                                                        //Função que faz o programa funcionar
-     char coluna [10] = {'  A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};        //Vetor que armazena o valor de cada coluna do tabuleiro
+     char coluna [10]= {'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J'};        //Vetor que armazena o valor de cada coluna do tabuleiro
      int  linha  [10] = {1,2,3,4,5,6,7,8,9,10};                                   //Vetor que armazena o valor de cada linha do tabuleiro
      
      int tabuleiro[10][10]={                                                    //Matriz 10 linhas por 10 colunas que armazena o tabuleiro sem navios,cada zero representa água no jogo
@@ -18,6 +18,7 @@ int main (){                                                                    
      
      };
      printf("Tabuleiro Batalha Naval \n");                                  //Mostra A expressão Tabuleiro Batalha Naval
+     printf("  ");
      
      
      for (int j = 0;j<10;j++){                                           //Estrutura de repetição que cria e inicializa j e repete 10 vezes o código abaixo se j for menor que 10 e após a execução do código incrementa 1 a j.
@@ -29,10 +30,10 @@ int main (){                                                                    
     
     printf("\n");                                                          //Faz um espaçamento
 
-    for (int i = 0 ;i<10;i++){                                              //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i.  
-       printf("%d  ",linha[i]);                                            //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1) 
+    for (int i = 0 ;i<10;i++){                                              //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i. 
+        printf("%d",linha[i]);                                            //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1)  
        for(int j=0;j<10;j++ ){
-       printf(" %d ",tabuleiro[j][0],tabuleiro[j][1],tabuleiro[j][2],tabuleiro[j][3],tabuleiro[j][4],tabuleiro[j][5],tabuleiro[j][6],tabuleiro[j][7],tabuleiro[j][9],tabuleiro[j][0]);        //Mostra o número que é o valor de cada linha baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) e assim por diante
+       printf(" %d ",tabuleiro[j][0],tabuleiro[j][1],tabuleiro[j][2],tabuleiro[j][3],tabuleiro[j][4],tabuleiro[j][5],tabuleiro[j][6],tabuleiro[j][7],tabuleiro[j][9],tabuleiro[j][0],"\n");        //Mostra o número que é o valor de cada linha baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) e assim por diante
        
 
        }  
