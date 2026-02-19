@@ -30,18 +30,14 @@ int main (){                                                                    
     printf("\n");                                                          //Faz um espaçamento
 
     for (int i = 0;i<10;i++){                                            //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i.  
-      for(int t=0;t<10;t++){                                            //Estrutura de repetição que cria e inicializa t se  t for menor que 10 executa o código abaixo e após a execução incrementa 1 a t      
-       printf("%d",linha[i]);                                          //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1) 
-       printf("%d ",tabuleiro[t][0],tabuleiro[t][1],tabuleiro[t][2],tabuleiro[t][3],tabuleiro[t][4],tabuleiro[t][5],tabuleiro[t][6],tabuleiro[t][7],tabuleiro[t][8],tabuleiro[t][9]); } ;                                     //Mostra o número que é o valor de cada linha baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) e assim por diante
+       printf("%d\n",linha[i]);                                         //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1) 
+
       
-
-
-     }  
     
        printf("\n");   //faz um espaçamento  
                        
-      }
-
+      
+    }
 
       
      
