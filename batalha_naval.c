@@ -6,18 +6,21 @@ int main (){                                                                    
      
      int tabuleiro[10][10]={                                                    //Matriz 10 linhas por 10 colunas que armazena o tabuleiro sem navios,cada zero representa água no jogo
      {0,0,0,0,0,0,0,0,0,0},                     
-     {0,0,0,0,0,0,0,0,0,0},                     
+     {0,3,0,0,0,0,0,0,0,0},                     
+     {0,3,0,0,0,0,0,0,0,0},                    
+     {0,3,0,0,0,0,0,0,0,0},                    
      {0,0,0,0,0,0,0,0,0,0},                    
      {0,0,0,0,0,0,0,0,0,0},                    
      {0,0,0,0,0,0,0,0,0,0},                    
      {0,0,0,0,0,0,0,0,0,0},                    
-     {0,0,0,0,0,0,0,0,0,0},                    
-     {0,0,0,0,0,0,0,0,0,0},                    
-     {0,0,0,0,0,0,0,0,0,0},                     
+     {0,0,0,0,0,0,3,3,3,0},                     
      {0,0,0,0,0,0,0,0,0,0},                    
      
-     };
-     printf("Tabuleiro Batalha Naval \n");                                  //Mostra A expressão Tabuleiro Batalha Naval
+     }; 
+     
+     int navio1[3]={3,3,3};                                                  //Vetor que armazena a posição do navio1
+     int navio2[3] ={3,3,3};                                                //Vetro que armazena a posição do navio2
+     printf("Tabuleiro Batalha Naval \n");                                 //Mostra A expressão Tabuleiro Batalha Naval
      printf(" ");                                                         //Espaço em branco para alinhar o número da linha e a letra da coluna
      
      
@@ -36,10 +39,9 @@ int main (){                                                                    
           printf("%d ",tabuleiro[0][t]);                                //Mostra o número que é o valor de cada linha e da coluna baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) com espaçamento e assim por diante
         
  
-        }   printf("\n");                                                //Faz um espaçamento
+        } printf("\n");                                                //Faz um espaçamento
  
-        };                                  
-       
+        }; 
        
        
  
