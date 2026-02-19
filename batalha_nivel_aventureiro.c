@@ -41,7 +41,13 @@ int main (){                                                                    
                                                        
 
           
-          }else{
+          }else if(i += t == 9){                                         //Estrutura de repetição que verifica se i += t ==9 ,se o número da linha mais o da coluna è igual a 9
+            printf("%d ",navio1[j]);                                    //Se for executa o código abaixo 
+
+             
+
+
+          } else{
             
             printf("%d ",tabuleiro[i][j]);                                //Mostra o número que é o valor de cada linha e da coluna baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) com espaçamento e assim por diante}
         
