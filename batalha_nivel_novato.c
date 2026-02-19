@@ -45,30 +45,30 @@ int main (){                                                                    
        
        
  
-        for (int i = 0 ;i<10;i++){                                          //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i. 
+        for (int i = 0 ,j=0;i<10;i++){                                      //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i. 
         printf("%d ",linha[i]);                                            //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1)  
-        for(int j=0;j<10;j++ ){                                           //estrutura de repetição que cria e inicializa  j ,verifica se j for menor que 10 se sim executa o código abaixo e após a execução incrementa 1 a j. 
+          for(int j=0; j<10;j++ ){                                        //estrutura de repetição que cria e inicializa  j ,verifica se j for menor que 10 se sim executa o código abaixo e após a execução incrementa 1 a j. 
           if(i==j){                                                      //Estrutura de repetição que verifica se i = j,se o número da linha igual ao da coluna
             printf("%d ",navio1[j]);                                    //Se for executa o código abaixo
+                                                       
 
-         
-          }else{                                                         //se não
-
-          printf("%d ",tabuleiro[i][j]);                                //Mostra o número que é o valor de cada linha e da coluna baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) com espaçamento e assim por diante
-          }
+          
+          }else{
+            
+            printf("%d ",tabuleiro[i][j]);                                //Mostra o número que é o valor de cada linha e da coluna baseado no valor de t, exemplo se  t for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) com espaçamento e assim por diante}
         
- 
-        } printf("\n");                                                //Faz um espaçamento
- 
-        }; 
-       
-        
-       
+    
+        }   
 
 
               
     
        }
+
+        printf("\n");                                                //Faz um espaçamento
+ 
+      }
+    }
 
        //teste2222222
  
