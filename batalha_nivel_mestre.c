@@ -42,7 +42,7 @@ int main (){                                                                    
 
     
 
-    //Cria a matriz de Habilidade Cone
+    //Cria e mostra a matriz de habilidade em Cone
    for (int i = 0 ;i<10;i++){                                                                                                                                                            //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i. 
         printf("%d ",linha[i]);                                                                                                                                                         //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1)  
           for(int j =0; j <10;j++ ){                                                                                                                                                   //estrutura de repetição que cria e inicializa  j ,verifica se j for menor que 10 se sim executa o código abaixo e após a execução incrementa 1 a t. 
@@ -53,7 +53,18 @@ int main (){                                                                    
                                                                                                                                                  
         
         
-        }  else {
+      //Cria e mostra a matriz de habilidade em Cruz
+          
+        }else if(i==1 && j == 4||i==2 && j==4||i==2 && j==3 ||i==2 && j==2||i==2 && j==5||i==2&& j==6||i==3&&j==4){  //Estrutura de repetição que verifica os índices E2,E3,D3,C3,F3,G3,E4 ,se o número da linha e o  da coluna são  i==9 , j == 0 ou i==8 , j==1  ou i==7 , j==2 ou i==6 , j==3 ou i==5 , j==4
+             tabuleiro[i][j] = 3;                                                                                   //Se pelo menos uma dessas condições for verdadeira coloca o 3 nessa índice
+
+
+            printf("%d ",tabuleiro[i][j]);                                                                        //Mostra o 3 no índice E2 ou E3 ou D3 ou C3 ou F3 ou G3 ou E4 
+      
+        
+        
+        
+        }else {
              printf("%d ",tabuleiro[i][j]);                                                                                                                                              //Mostra o número que é o valor de cada linha e da coluna baseado no valor de j, exemplo se  j for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) com espaçamento e assim por diante} 
 
         } 
@@ -68,7 +79,7 @@ int main (){                                                                    
     }
 
 
-//teste 2 cone
+//teste 3 cruz
 
 
 
