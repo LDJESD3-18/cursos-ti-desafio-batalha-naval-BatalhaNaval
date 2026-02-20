@@ -56,8 +56,11 @@ int main (){                                                                    
         }  else {
              printf("%d ",tabuleiro[i][j]);                                                                                                                                              //Mostra o número que é o valor de cada linha e da coluna baseado no valor de j, exemplo se  j for 0: mostra 0(número que corresponde a A1,coluna A e linha 1) com espaçamento e assim por diante} 
 
-        }                                                                                                                                      
-        }
+        } 
+        
+        
+        } printf("\n") ;                                                        //Faz um espaçamento
+
       };
 
                                                                           
