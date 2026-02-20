@@ -44,7 +44,7 @@ int main (){                                                                    
 
 
 
-        printf("%d ",tabuleiro[i][t]);                                                                         //Mostra o 3 na posição A1 ou B2 ou C3 ou D4 
+         printf("%d ",tabuleiro[i][t]);                                                                         //Mostra o 3 na posição A1 ou B2 ou C3 ou D4 
             
          
             
@@ -83,4 +83,4 @@ int main (){                                                                    
 
 
 
-/////
+///////
