@@ -39,28 +39,25 @@ int main (){                                                                    
      for (int i = 0 ,j=0;i<10;i++){                                                                                    //Estrutura de repetição que cria e inicializa i e repete 10 vezes o código abaixo se i for menor que 10 e após a execução do código incrementa 1 a i. 
         printf("%d ",linha[i]);                                                                                       //Mostra o número que é o valor de cada linha baseado no valor de i, exemplo se  i for 0: mostra 1(linha 1)  
           for(int t=0; t<10;t++ ){                                                                                   //estrutura de repetição que cria e inicializa  t ,verifica se t for menor que 10 se sim executa o código abaixo e após a execução incrementa 1 a t. 
-          if(i== 0 && t==0 && i== 1 && t==1 && i== 2 && t==2 && i== 3 && t==3){                                     //Estrutura de repetição que verifica se i = t,se o número da linha igual ao da coluna
-            printf("%d ",navio3);                                                                               //Se for coloca o 3 na célula A1(linha0,coluna0)
-            printf("%d ",navio3);                                                                              //Se for coloca o 3 na célula B2(linha1,coluna1)
-            printf("%d ",navio3);                                                                             //Se for coloca o 3 na célula C3 (linha2,coluna2)
-            printf("%d ",navio3);                                                                            //Se for coloca o 3 na célula D4 (linha3,coluna3)
-           
+          if(i== 0 && t==0 || i== 1 && t==1 || i== 2 && t==2 || i== 3 && t==3){                                     //Estrutura de repetição que verifica as posições A1,B2,C3 E D4 ,se o número da linha e da coluna são i==0 e t==0 ou i==1 e t==1 ou i==2 e t==2 ou i==3 e t==3 
+          tabuleiro[i][t]== 3;                                                                                     //Se pelo menos uma dessas condições for verdadeira coloca o 3 nessa posição
 
+
+
+        printf("%d ",tabuleiro[i][t]);                                                                         //Mostra o 3 na posição A1 ou B2 ou C3 ou D4 
+            
          
             
 
                                                                                                   
         //Posicionar o navio4(diagonal secundária)
           
-          }else if(i==9 && t == 2){                                            //Estrutura de repetição que verifica se i += t ==9 ,se o número da linha mais o da coluna è igual a 9
-            printf("%d ",navio4[0]);                                          //Se for coloca o 3 na célula A10 (linha10,coluna1)
-            printf("%d ",navio4[1]);                                         //Se for coloca o 3 na célula B9 (linha9,coluna2)
-            printf("%d ",navio4[2]);                                        //Se for coloca o 3 na célula C8 (linha8,coluna3)
-            printf("%d ",navio4[3]);                                       //Se for coloca o 3 na célula D7 (linha7,coluna4)
-            printf("%d ",navio4[4]);                                      //Se for coloca o 3 na célula E6 (linha6,coluna5)
-           
+          }else if(i==9 && t == 0||i==8 && t==1||i==7 && t==2 ||i==6 && t==3||i==5 && t==4){  //Estrutura de repetição que verifica as posições A10,B9,C8,D7,E6 ,se o número da linha e o  da coluna são  i==9 , t == 0 ou i==8 , t==1  ou i==7 , t==2 ou i==6 , t==3 ou i==5 , t==4
+             tabuleiro[i][t]== 3;                                                             //Se pelo menos uma dessas condições for verdadeira coloca o 3 nessa posição
 
 
+            printf("%d ",tabuleiro[i][t]);                                                 //Mostra o 3 na posição A10 ou B9 ou C8 ou D7 ou E6 
+            
              
 
 
@@ -84,4 +81,4 @@ int main (){                                                                    
 
 }
 
-//teste03
+//teste04
